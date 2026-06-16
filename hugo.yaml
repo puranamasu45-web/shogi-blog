@@ -33,7 +33,7 @@ menu:
       url: /about/
       weight: 5
 
-[params]
+params:
   author: puranamasu45-web
   description: 将棋上達のための棋譜解説・手筋・定跡ブログ
   keywords: [将棋, 棋譜, 藤井聰太, 手筋, 定跡]
