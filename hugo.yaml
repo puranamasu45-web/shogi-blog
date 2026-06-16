@@ -1,0 +1,51 @@
+baseURL: 'https://puranamasu45-web.github.io/shogi-blog/'
+languageCode: 'ja'
+title: 将棋ブログ
+theme: PaperMod
+paginate: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+defaultContentLanguage: ja
+languages:
+  ja:
+    languageName: 日本語
+    weight: 1
+
+menu:
+  main:
+    - name: ホーム
+      url: /
+      weight: 1
+    - name: 記事一覧
+      url: /posts/
+      weight: 2
+    - name: 手筋問題
+      url: /tesuji/
+      weight: 3
+    - name: 棋譜解説
+      url: /kifu/
+      weight: 4
+    - name: About
+      url: /about/
+      weight: 5
+
+[params]
+  author: puranamasu45-web
+  description: 将棋上達のための棋譜解説・手筋・定跡ブログ
+  keywords: [将棋, 棋譜, 藤井聰太, 手筋, 定跡]
+  DateFormat: "2006年1月2日"
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowToc: true
+  TocOpen: false
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+
+  defaultTheme: auto
+  ShowPostNavLinks: true
+  ShowScrollToTop: true
