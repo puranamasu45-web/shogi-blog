@@ -26,6 +26,8 @@ jobs:
         with:
           hugo-version: '0.128.0'
           extended: true
+      - name: Setup Hugo Modules
+        run: hugo mod get -u
       - name: Build
         run: hugo --minify
       - name: Upload artifact
