@@ -1,7 +1,6 @@
 baseURL: 'https://puranamasu45-web.github.io/shogi-blog/'
 languageCode: 'ja'
 title: 将棋ブログ
-theme: PaperMod
 paginate: 10
 
 enableRobotsTXT: true
@@ -14,6 +13,10 @@ languages:
   ja:
     languageName: 日本語
     weight: 1
+
+module:
+  imports:
+    - path: github.com/adityatelange/hugo-PaperMod
 
 menu:
   main:
