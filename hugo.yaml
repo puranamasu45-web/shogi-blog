@@ -1,7 +1,8 @@
 baseURL: 'https://puranamasu45-web.github.io/shogi-blog/'
 languageCode: 'ja'
 title: 将棋ブログ
-paginate: 10
+pagination:
+  pagerSize: 10
 
 enableRobotsTXT: true
 buildDrafts: false
